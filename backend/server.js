@@ -3,7 +3,7 @@
 
 const express = require("express");
 const cors    = require("cors");
-const mysql   = require("mysql");
+const mysql   = require("mysql2");
 const bcrypt  = require("bcryptjs");
 const jwt     = require("jsonwebtoken");
 require("dotenv").config();
@@ -44,6 +44,7 @@ const pool = mysql.createPool({
   password: DB.password,
   database: DB.database,
   port    : DB.port,
+  ssl     : process.env.DB_SSL === "true" ? { rejectUnauthorized: false } : false,
 });
 
 // ── Promise wrapper so you can use async/await everywhere ────
