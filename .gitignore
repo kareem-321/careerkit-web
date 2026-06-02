@@ -1,0 +1,28 @@
+# Node dependencies
+**/node_modules/
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+**/pids
+**/pid
+**/tsserver.pid
+
+# dotenv files
+.env
+**/.env
+
+# Build output
+**/dist
+**/build
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
