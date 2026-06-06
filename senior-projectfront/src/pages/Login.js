@@ -43,7 +43,6 @@ export default function Login() {
             <li>Export a ready-to-send PDF</li>
           </ul>
         </div>
-        <span className="muted" style={{ color: "#9a9388" }}>CSCI426 — Web Programming Advanced</span>
       </div>
 
       <div className="auth-form">

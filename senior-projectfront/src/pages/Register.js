@@ -42,7 +42,6 @@ export default function Register() {
             <li>Save versions and reopen them anytime</li>
           </ul>
         </div>
-        <span className="muted" style={{ color: "#9a9388" }}>CSCI426 — Web Programming Advanced</span>
       </div>
 
       <div className="auth-form">
