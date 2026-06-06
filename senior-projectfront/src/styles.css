@@ -109,7 +109,7 @@ textarea { resize: vertical; min-height: 70px; }
 .auth-wrap { min-height: 100%; display: grid; grid-template-columns: 1.05fr 1fr; }
 .auth-art {
   background: var(--ink); color: var(--paper);
-  padding: 3rem; display: flex; flex-direction: column; justify-content: space-between;
+  padding: 3rem; display: flex; flex-direction: column; justify-content: center; gap: 2.5rem;
 }
 .auth-art .logo { font-family: var(--serif); font-size: 1.6rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; }
 .auth-art .logo .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
