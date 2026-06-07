@@ -228,7 +228,7 @@ export default function Editor() {
                 <label>Contact info</label>
                 <textarea
                   value={data.contact_info || ""}
-                  placeholder={"karim@email.com · +961 …\nSidon, Lebanon · linkedin.com/in/…"}
+                  placeholder={"you@email.com · +961 …\nCity, Country · linkedin.com/in/…"}
                   onChange={(e) => setHeader("contact_info", e.target.value)}
                   onBlur={saveHeader}
                 />
